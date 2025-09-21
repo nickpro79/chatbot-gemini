@@ -24,10 +24,24 @@ a:hover {
 
 body {
   margin: 0;
+  height: 100vh;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 600px;
+  height: 90vh; /* So it fits nicely on screen */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -52,6 +66,15 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+.chat-window {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
 }
 
 @media (prefers-color-scheme: light) {

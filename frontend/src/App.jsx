@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { sendMessage } from "./api";
-import ChatMessage from "./ChatMessage";
+import ChatMessage from "./components/ChatMessage";
 import "./index.css";
 
 function App() {
