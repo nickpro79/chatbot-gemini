@@ -14,8 +14,8 @@ const ChatMessage = ({ text, sender }) => {
           maxWidth: "70%",
           padding: "10px 14px",
           borderRadius: "15px",
-          backgroundColor: sender === "user" ? "#4f46e5" : "#e5e5ea",
-          color: sender === "user" ? "white" : "black",
+          backgroundColor: sender === "user" ? "#4f46e5" : "#3a3a3a", // dark grey for bot
+          color: sender === "user" ? "white" : "white",
         }}
       >
         {text}
