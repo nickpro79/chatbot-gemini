@@ -18,30 +18,6 @@ This project showcases a clean, dark-mode chatbot UI with real-time interaction 
 
 ---
 
-## 🗂 Project Structure
-
-chatbot-gemini/
-│
-├── backend/
-│ ├── app/
-│ │ ├── main.py # FastAPI entrypoint
-│ │ ├── config.py # Gemini API config
-│ │ ├── models.py # Request/response models
-│ │ └── routes/
-│ │ └── chat.py # Chat endpoint
-│ ├── requirements.txt
-│ └── .env # GEMINI_API_KEY
-│
-└── frontend/
-├── src/
-│ ├── App.jsx # Main chat UI
-│ ├── ChatMessage.jsx # Chat bubble component
-│ ├── api.js # Axios helper to call backend
-│ └── index.css # Styling (dark mode)
-├── package.json
-└── vite.config.js
-
-
 ## ⚡ Tech Stack
 
 - **Frontend:** React, Vite, Axios, CSS  
